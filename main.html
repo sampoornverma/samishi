@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta charset="UTF-8">
+		<title>Second anniversary of love</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" href="first1.css">
+	</head>
+
+	<body style="margin:0px">
+		<audio autoplay loop>
+			<source src="music/music.mp3" type="audio/mpeg">
+			Your browser does not support the audio.
+		</audio>
+		<canvas></canvas>
+		<div id="imgTxt">
+			<span id="Txt"></span> <br />
+			<span id="tmp"></span>
+			<img id="img" src="">
+		</div>
+        
+        
+		<div id="heartTxt">
+            
+            
+            
+			<div id="heart">
+				<button id="button" onclick="play()"></button>
+			</div>
+            <span id="clickMe">Click "Once"!</span>
+		</div>
+		<div id="content">
+			<h2 id="together">We have been together</h2>
+			<div id="timer">
+				<b id="d"></b> Days 
+				<b id="h"></b> Hours
+				<b id="m"></b> Minutes
+				<b id="s"></b> Seconds
+			</div>
+		</div>
+
+    	<div id = "typeDiv">
+        	<span id="txt1"></span> <br />
+        	<span id="txt2"></span>
+    	</div>		
+
+		<script >
+			var ok = 0;
+			var flag = 1;
+			var myImage = document.getElementById("img");
+			var myTxt = document.getElementById("Txt");
+			var imageArray = ["https://i.postimg.cc/LsDNZC9p/IMAGE-2024-08-15-21-37-19.jpg", "https://i.postimg.cc/LsDNZC9p/IMAGE-2024-08-15-21-37-19.jpg", "https://i.postimg.cc/7hFVyjVg/IMAGE-2024-08-15-21-38-58.jpg", "https://i.postimg.cc/7hFVyjVg/IMAGE-2024-08-15-21-38-58.jpg", "https://i.postimg.cc/7Pj866tN/IMAGE-2024-08-15-21-40-06.jpg", "https://i.postimg.cc/7Pj866tN/IMAGE-2024-08-15-21-40-06.jpg", 
+			"https://i.ibb.co/kMKhsCx/2024-04-06-16-42-27.jpg", "https://i.ibb.co/kMKhsCx/2024-04-06-16-42-27.jpg", "https://i.postimg.cc/ryD2MWjm/IMAGE-2024-08-15-21-39-28.jpg", "https://i.postimg.cc/ryD2MWjm/IMAGE-2024-08-15-21-39-28.jpg", "https://i.postimg.cc/G2SKX4Tg/IMAGE-2024-08-15-21-38-04.jpg",
+			"https://i.postimg.cc/G2SKX4Tg/IMAGE-2024-08-15-21-38-04.jpg", "https://i.postimg.cc/sxNpV5D5/IMAGE-2024-08-15-21-08-43.jpg", "https://i.postimg.cc/sxNpV5D5/IMAGE-2024-08-15-21-08-43.jpg", "https://i.postimg.cc/MG42QpKx/IMAGE-2024-08-15-21-49-52.jpg", "https://i.postimg.cc/MG42QpKx/IMAGE-2024-08-15-21-49-52.jpg","https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDI2Y2ppYWFibmFvODF0N2xyMWEzbXNvYzZ6czdyZDByODZkaTR1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HR6Am51fRBUrnIhUgK/giphy.webp","https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDI2Y2ppYWFibmFvODF0N2xyMWEzbXNvYzZ6czdyZDByODZkaTR1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HR6Am51fRBUrnIhUgK/giphy.webp","https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDI2Y2ppYWFibmFvODF0N2xyMWEzbXNvYzZ6czdyZDByODZkaTR1MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/HR6Am51fRBUrnIhUgK/giphy.webp"];
+			var imageIndex = 0;
+			var txtArray = [
+                            "Hello, my cutieeee baby", 
+                            "samay hume kitna close lai aya hai na", 
+                            "jabki abhi to suruaat hai",
+                            "apka maire liye itna pyar", 
+                            "mujhe duniya ka sabse bada motivation daita hai!!!", 
+                            "mujhe yaad hai vo din", 
+                            "jab aap class mai ayi thi ,mai apko dekh rha tha",
+                            "ki naya student aya hai", 
+                            "kabhi imagine nhi kiya tha vo ladki", 
+                            "mairi zindgi bhan jaye gi", 
+                            "aaj mai apse mil nhi paya", 
+                            "mujhe bhut bhut dukh hua", 
+                            "pr apki presence, hawa bhi mujhe feel karati hai", 
+                            "mai apko everytime apne dil ke paas feel karta hu", 
+                            "ishita aise hi humesha maire saath rhna, maire dil mai aur pyar karte rhna", 
+                            "maira bhi pyar apke liye forever hai",
+                            "",
+                            "",
+                            ""
+
+];
+			 var len = imageArray.length;
+			var t = 0;
+		</script>
+		
+		<script type="text/javascript" src="app.js"></script>
+		<script type="text/javascript" src="typeWriter.js"></script>
+		<script type="text/javascript" src="date.js"></script>
+		<script type="text/javascript" src="playImg.js"></script>
+	</body>
+</html>
